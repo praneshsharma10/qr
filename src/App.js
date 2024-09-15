@@ -37,16 +37,17 @@ function App() {
       >
         Enter
       </button>
-    </div>  
+    
 
-// {/* //generate */}
+{/* //generate */}
 
-// {/* {qrValue && (
-//         <div style={{ marginTop: '40px'}}>
-//           <QRCode value={qrValue} />
-//         </div>
-//       )}
-//     </div> */}
+ {qrValue && (
+        <div style={{ marginTop: '40px'}}>
+          <QRCode value={qrValue} />
+        </div>
+      )}
+
+    </div> 
 
   );
 }
