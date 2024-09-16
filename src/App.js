@@ -6,7 +6,7 @@ function App() {
   const [qrValue, setQRValue] = useState('');
   const handleChange = (event) => {
     const value = event.target.value;
-    if (value.length <= 25) {
+    if (value.length <= 100) {
       setInputText(value);
     }
   };
